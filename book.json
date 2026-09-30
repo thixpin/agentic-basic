@@ -1,0 +1,29 @@
+{
+  "title": "Agentic Coding Basic for Junior Developers",
+  "subtitle": "ကုဒ်မရေးတတ်သေးခင် ကုဒ်ရေးခိုင်းတတ်အောင် သင်ပေးမည့် စာအုပ်",
+  "author": "Soe Thura",
+  "year": "2026",
+  "language": "my",
+  "identifier": "urn:uuid:myaree-store-agentic-coding-basic-2026",
+  "output_name": "agentic-coding-basic-mm",
+  "cover": "cover/cover.png",
+  "chapter_glob": "chapters/[0-9][0-9]-*.md",
+  "web_url": "https://agentic-basic.thixpin.me/",
+  "description": "Claude Code ကိုသုံးပြီး Mini Ecommerce Website တစ်ခုကို အစအဆုံး တည်ဆောက်သွားတဲ့ Agentic Coding လက်တွေ့သင်ခန်းစာ စာအုပ်။",
+  "web_published_chapters": [
+    "01-what-is-agentic-coding.md",
+    "02-meet-claude-code.md",
+    "03-how-to-instruct-agents.md",
+    "04-starting-the-project.md",
+    "05-building-features.md",
+    "06-bugs-and-testing.md",
+    "07-skills.md",
+    "08-context-window-and-tokens.md",
+    "09-final-words.md"
+  ],
+  "page": { "size": "default" },
+  "font": { "family": "noto-sans-myanmar", "size": "m" },
+  "strings": {
+    "licence_text": "This work is licensed under the MIT License. https://opensource.org/license/mit"
+  }
+}

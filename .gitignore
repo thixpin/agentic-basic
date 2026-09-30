@@ -7,3 +7,7 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# md2book output (dist/book: local builds, dist/pages: the Pages workflow)
+dist/book/
+dist/pages/
