@@ -13,6 +13,8 @@
 
 ![Cover](./imgs/cover.png)
 
+**📖 အွန်လိုင်းမှာ ဖတ်ရန် — [agentic-basic.thixpin.me](https://agentic-basic.thixpin.me/)**
+
 ## ဒီစာအုပ်က ဘာအကြောင်းလဲ
 
 Agentic Coding ဆိုတာ ဘာလဲဆိုတာကနေစပြီး **Claude Code** ကိုသုံးကာ **Mini Ecommerce Website** တစ်ခု (ရပ်ကွက်ထဲက ဒေါ်မြရီရဲ့ ကုန်စုံဆိုင်ကို အွန်လိုင်းတင်ပေးမယ့် "မြရီစတိုး") ကို အစအဆုံး တည်ဆောက်သွားတဲ့ လက်တွေ့သင်ခန်းစာ စာအုပ်ပါ။ Noob/Junior Developer တွေအတွက် ရည်ရွယ်ပြီး ပေါ့ပေါ့ပါးပါး စကားပြောဟန်နဲ့ ရေးထားပါတယ်။
@@ -83,6 +85,20 @@ dist/agentic-coding-basic-mm.pdf
 - `python3`
 - PDF ထုတ်ဖို့အတွက် Chromium-based browser တစ်ခုခု (Google Chrome / Chromium / Microsoft Edge)။ တခြားနေရာမှာ ရှိရင် `CHROME=/path/to/chrome ./build.sh` လို့ ညွှန်ပေးလို့ရတယ်။
 - Build script က လက်ရှိမှာ **macOS** ကို ပစ်မှတ်ထားပါတယ် (စနစ်ထဲက Noto Sans Myanmar ဖောင့်ကို သုံးလို့)။ တခြား OS မှာဆို `NotoSansMyanmar-Regular.ttf` နဲ့ `-Bold.ttf` ကို `build/` ထဲ ကိုယ်တိုင် ထည့်ပေးရပါမယ်။
+
+### md2book နဲ့ Build လုပ်ခြင်း
+
+[md2book](https://md2book.thixpin.me/) ကို သုံးပြီး PDF, EPUB နဲ့ Web edition ကို ထုတ်လို့ရပါတယ် —
+
+```bash
+npm install -g @thixpin/md2book
+npx playwright install chromium
+md2book fonts        # ဖောင့်တွေကို တစ်ခါ download လုပ်ရန်
+md2book build all    # PDF, EPUB, Web edition နဲ့ QA report — dist/book/ ထဲ ထွက်ပါမယ်
+md2book serve        # Web edition ကို http://127.0.0.1:8000/ မှာ ကြည့်ရန်
+```
+
+Setting တွေက `book.json` ထဲမှာ ရှိပြီး Cover ကို `cover/cover.html` ကနေ `md2book cover cover/cover.html` နဲ့ ထုတ်ပါတယ်။ Web edition ကို GitHub Actions ရဲ့ **Deploy web edition to GitHub Pages** workflow ကနေ [agentic-basic.thixpin.me](https://agentic-basic.thixpin.me/) ကို deploy လုပ်ပါတယ်။
 
 ## ဆက်လက်လေ့လာရန်
 
