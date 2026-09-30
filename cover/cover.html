@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="my">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Front cover, 170 × 240 mm. Render: md2book cover cover/cover.html -->
+    <style>
+      @page {
+        size: 170mm 240mm;
+        margin: 0;
+      }
+      html,
+      body {
+        margin: 0;
+      }
+      body {
+        width: 170mm;
+        height: 240mm;
+        overflow: hidden;
+        position: relative;
+        background: #f7f8f6;
+        color: #2b3136;
+        font-family: "Noto Sans Myanmar", sans-serif;
+      }
+      .band {
+        position: absolute;
+        inset: 0 auto 0 0;
+        width: 6mm;
+        background: #5fbfae;
+      }
+      header {
+        position: absolute;
+        top: 30mm;
+        left: 16mm;
+        right: 14mm;
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+        font-size: 44pt;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        line-height: 1.1;
+      }
+      .sub {
+        margin: 3mm 0 0;
+        font-size: 22pt;
+        font-weight: 600;
+      }
+      .rule {
+        width: 24mm;
+        height: 1.2mm;
+        margin: 7mm auto 6mm;
+        border-radius: 1mm;
+        background: #5fbfae;
+      }
+      .my {
+        margin: 0;
+        font-size: 13.5pt;
+        line-height: 1.7;
+        color: #3d4a52;
+      }
+      svg {
+        position: absolute;
+        top: 104mm;
+        left: 14mm;
+        width: 144mm;
+      }
+      footer {
+        position: absolute;
+        left: 16mm;
+        right: 14mm;
+        bottom: 16mm;
+        text-align: center;
+        color: #5b6770;
+      }
+      .guide {
+        margin: 0 0 7mm;
+        font-size: 12pt;
+        line-height: 1.55;
+      }
+      .author {
+        margin: 0;
+        font-size: 13pt;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        color: #2b3136;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="band"></div>
+    <header>
+      <h1>AGENTIC CODING</h1>
+      <p class="sub">Basic for Junior Developers</p>
+      <div class="rule"></div>
+      <p class="my">ကုဒ်မရေးတတ်သေးခင်<br />ကုဒ်ရေးခိုင်းတတ်အောင် သင်ပေးမည့် စာအုပ်</p>
+    </header>
+
+    <svg viewBox="0 0 600 330" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g stroke="#2b3136" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+        <!-- Links: developer → code → message → agent, and laptop → agent -->
+        <g fill="none" stroke="#5fbfae" stroke-width="4">
+          <path d="M196 96 H250" />
+          <path d="M298 96 H322" />
+          <path d="M242 232 H300 V168 H412" />
+        </g>
+        <rect x="250" y="74" width="48" height="44" rx="10" fill="#5fbfae" />
+        <text x="274" y="104" text-anchor="middle" stroke="none" fill="#2b3136"
+          font-family="Noto Sans Mono, monospace" font-size="22" font-weight="700">{ }</text>
+        <path d="M322 62 h78 a10 10 0 0 1 10 10 v36 a10 10 0 0 1 -10 10 h-50 l-14 14 v-14 h-14 a10 10 0 0 1 -10 -10 v-36 a10 10 0 0 1 10 -10 z"
+          fill="#5fbfae" />
+        <path d="M338 80 H394 M338 92 H394 M338 104 H372" stroke-width="3.5" />
+
+        <!-- Developer -->
+        <path d="M76 270 Q76 150 150 150 Q224 150 224 270 Z" fill="#5fbfae" />
+        <circle cx="150" cy="104" r="42" fill="#fff" />
+        <path d="M108 100 Q110 60 150 60 Q190 60 192 100 Q178 80 150 80 Q124 80 108 100 Z" fill="#2b3136" />
+        <rect x="121" y="98" width="24" height="17" rx="5" fill="#fff" stroke-width="3.5" />
+        <rect x="155" y="98" width="24" height="17" rx="5" fill="#fff" stroke-width="3.5" />
+        <path d="M145 106 H155" stroke-width="3.5" />
+        <path d="M100 108 A50 50 0 0 1 200 108" fill="none" stroke="#5fbfae" stroke-width="7" />
+        <rect x="94" y="96" width="14" height="28" rx="6" fill="#5fbfae" />
+        <rect x="192" y="96" width="14" height="28" rx="6" fill="#5fbfae" />
+        <path d="M101 124 Q106 146 132 146" fill="none" stroke-width="3.5" />
+        <rect x="92" y="194" width="116" height="74" rx="9" fill="#fff" />
+        <circle cx="150" cy="231" r="8" fill="#5fbfae" />
+        <path d="M64 272 H236" stroke-width="6" />
+
+        <!-- Agent -->
+        <path d="M464 44 V64" />
+        <circle cx="464" cy="38" r="8" fill="#5fbfae" />
+        <rect x="402" y="92" width="14" height="30" rx="5" fill="#5fbfae" />
+        <rect x="512" y="92" width="14" height="30" rx="5" fill="#5fbfae" />
+        <rect x="412" y="64" width="104" height="80" rx="24" fill="#fff" />
+        <rect x="428" y="82" width="72" height="44" rx="15" fill="#2b3136" />
+        <circle cx="450" cy="104" r="7" fill="#fff" stroke="none" />
+        <circle cx="478" cy="104" r="7" fill="#fff" stroke="none" />
+        <rect x="424" y="152" width="80" height="118" rx="14" fill="#5fbfae" />
+        <path d="M504 178 Q548 196 536 234 L500 250" fill="none" stroke-width="18" />
+        <path d="M504 178 Q548 196 536 234 L500 250" fill="none" stroke="#fff" stroke-width="10" />
+
+        <!-- Terminal -->
+        <rect x="328" y="186" width="160" height="116" rx="12" fill="#2b3136" />
+        <path d="M328 212 H488" stroke="#46525a" stroke-width="2" />
+        <circle cx="346" cy="199" r="4" fill="#f7f8f6" stroke="none" />
+        <circle cx="360" cy="199" r="4" fill="#f7f8f6" stroke="none" />
+        <circle cx="374" cy="199" r="4" fill="#f7f8f6" stroke="none" />
+        <g stroke-width="5">
+          <path d="M346 228 l10 8 l-10 8" stroke="#f7f8f6" fill="none" />
+          <path d="M364 246 H380" stroke="#f7f8f6" />
+          <path d="M346 262 H402 M410 262 H440" stroke="#5fbfae" />
+          <path d="M358 276 H392 M400 276 H456" stroke="#f7f8f6" />
+          <path d="M346 290 H384" stroke="#5fbfae" />
+        </g>
+        <circle cx="498" cy="250" r="11" fill="#5fbfae" />
+        <path d="M300 306 H540" stroke-width="6" />
+      </g>
+    </svg>
+
+    <footer>
+      <p class="guide">A Practical Guide using Claude Code &amp;<br />Building a Mini Ecommerce Website (Mya Yi Store)</p>
+      <p class="author">SOE THURA</p>
+    </footer>
+  </body>
+</html>
