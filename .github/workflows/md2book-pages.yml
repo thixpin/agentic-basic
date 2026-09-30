@@ -5,10 +5,9 @@
 name: Deploy web edition to GitHub Pages
 
 on:
-  # Deploys only when started from the Actions tab. To deploy on every push, add:
-  # push:
-  #   branches: [main]
-  workflow_dispatch:
+  # Deploys when a version tag is pushed: git tag v1.0.0 && git push origin v1.0.0
+  push:
+    tags: ["v*"]
 
 permissions:
   contents: read

@@ -98,7 +98,7 @@ md2book build all    # PDF, EPUB, Web edition နဲ့ QA report — dist/book/
 md2book serve        # Web edition ကို http://127.0.0.1:8000/ မှာ ကြည့်ရန်
 ```
 
-Setting တွေက `book.json` ထဲမှာ ရှိပြီး Cover ကို `cover/cover.html` ကနေ `md2book cover cover/cover.html` နဲ့ ထုတ်ပါတယ်။ Web edition ကို GitHub Actions ရဲ့ **Deploy web edition to GitHub Pages** workflow ကနေ [agentic-basic.thixpin.me](https://agentic-basic.thixpin.me/) ကို deploy လုပ်ပါတယ်။
+Setting တွေက `book.json` ထဲမှာ ရှိပြီး Cover ကို `cover/cover.html` ကနေ `md2book cover cover/cover.html` နဲ့ ထုတ်ပါတယ်။ Web edition ကို `v` နဲ့စတဲ့ tag တစ်ခု push လုပ်တိုင်း (ဥပမာ `git tag v1.0.0 && git push origin v1.0.0`) GitHub Actions ရဲ့ **Deploy web edition to GitHub Pages** workflow ကနေ [agentic-basic.thixpin.me](https://agentic-basic.thixpin.me/) ကို deploy လုပ်ပါတယ်။
 
 ## ဆက်လက်လေ့လာရန်
 
