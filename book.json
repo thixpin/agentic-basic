@@ -9,7 +9,7 @@
   "cover": "cover/cover.png",
   "chapter_glob": "chapters/[0-9][0-9]-*.md",
   "web_url": "https://agentic-basic.thixpin.me/",
-  "description": "Claude Code ကိုသုံးပြီး Mini Ecommerce Website တစ်ခုကို အစအဆုံး တည်ဆောက်သွားတဲ့ Agentic Coding လက်တွေ့သင်ခန်းစာ စာအုပ်။",
+  "web_description": "Claude Code ကိုသုံးပြီး Mini Ecommerce Website တစ်ခုကို အစအဆုံး တည်ဆောက်သွားတဲ့ Agentic Coding လက်တွေ့သင်ခန်းစာ စာအုပ်။",
   "web_published_chapters": [
     "01-what-is-agentic-coding.md",
     "02-meet-claude-code.md",
