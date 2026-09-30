@@ -21,8 +21,8 @@ Claude Code သုံးဖို့ လိုအပ်တာ နှစ်ခု
 
 **macOS / Linux မှာ** — Terminal ဖွင့်ပြီး ဒီ Command ကို ရိုက်ပါ —
 
-```bash
-curl -fsSL https://claude.ai/install.sh | bash
+```console
+$ curl -fsSL https://claude.ai/install.sh | bash
 ```
 
 **Windows မှာ** — PowerShell ဖွင့်ပြီး —
@@ -33,16 +33,16 @@ irm https://claude.ai/install.ps1 | iex
 
 **npm နဲ့ တင်ချင်ရင်** (Node.js 18 နောက်ပိုင်း ရှိထားဖို့ လိုတယ်) —
 
-```bash
-npm install -g @anthropic-ai/claude-code
+```console
+$ npm install -g @anthropic-ai/claude-code
 ```
 
 သတိပေးချက် တစ်ခု — npm နဲ့ တင်တဲ့အခါ `sudo` မသုံးပါနဲ့။ `sudo` ဆိုတာ "ကျုပ်က အိမ်ရှင်၊ ခွင့်ပြုချက် မလိုဘူး" ဆိုပြီး အတင်းဝင်တာမျိုးမို့ နောက်ပိုင်း Permission ပြဿနာတွေ တသီတတန်း လာတတ်တယ်။
 
 တင်ပြီးရင် Terminal အသစ်ဖွင့်ပြီး စစ်ကြည့်ပါ —
 
-```bash
-claude --version
+```console
+$ claude --version
 ```
 
 Version နံပါတ် ပေါ်လာရင် အောင်မြင်ပြီ။ `command not found` ဆိုပြီး ပြန်ပြောရင်တော့ စိတ်မပူပါနဲ့။ ကွန်ပျူတာလောကမှာ ပထမဆုံးအကြိမ်တည်းက အဆင်ပြေတာမျိုး ရှားတယ်။ Terminal ပိတ်ပြီး အသစ်ပြန်ဖွင့်ကြည့်ပါ။ `claude` command တော့တွေ့သွားပြီး တစ်ခြား error တွေ ပြနေရင် `claude doctor` ဆိုတဲ့ Command ရှိတယ်။ နာမည်အတိုင်းပဲ — ဆရာဝန်ခေါ်ပြကြည့်တာ။ ဘာကြောင့် မအီမသာ ဖြစ်နေလဲ သူက စစ်ဆေးပြီး ပြောပြပေးလိမ့်မယ်။
@@ -51,17 +51,17 @@ Version နံပါတ် ပေါ်လာရင် အောင်မြင�
 
 ကဲ — စမ်းသပ်ဖို့ Folder တစ်ခု ဆောက်ပြီး Claude ကို ခေါ်ကြည့်ရအောင်။ (ဒါက စမ်းကြည့်ရုံသက်သက်ပါ — ဒေါ်မြရီဆိုင် တကယ့် Project ကိုတော့ အခန်း (၄) မှာ စဆောက်ပါမယ်။)
 
-```bash
-mkdir claude-test
-cd claude-test
-claude
+```console
+$ mkdir claude-test
+$ cd claude-test
+$ claude
 ```
 
 ပထမဆုံးအကြိမ် Run ရင် Browser ပွင့်လာပြီး Login ဝင်ခိုင်းလိမ့်မယ်။ ဝင်ပြီးရင် Terminal ထဲမှာ Claude ရဲ့ စာရိုက်ကွက်လေး ပေါ်လာမယ်။ ဒီအချိန်ကစပြီး ကိုယ်ရိုက်သမျှကို Claude က ဖတ်ပြီး အလုပ်လုပ်ပေးတော့မယ်။
 
 စမ်းကြည့်ချင်ရင် ဒီလိုလေး ရိုက်ကြည့်ပါ —
 
-```
+```console
 > မင်္ဂလာပါ။ ဒီ Folder ထဲမှာ ဘာဖိုင်တွေ ရှိလဲ ကြည့်ပေးပါ။
 ```
 

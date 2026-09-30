@@ -8,7 +8,7 @@
 
 အဆုံးမှာ ဘာရလာမလဲ ကြိုမြင်ထားရအောင် — ဆောက်မယ့် မြရီစတိုးရဲ့ ဝယ်သူ ခရီးစဉ်က ဒီလို —
 
-```
+```text
 [ ပစ္စည်းစာရင်း ] → [ ဈေးခြင်းတောင်း ] → [ Checkout Form ] → [ Order Summary ] → [ Viber ပို့ ]
   Product List        Cart                 (နာမည်/ဖုန်း/လိပ်စာ)   (Screenshot ရိုက်)   ဒေါ်မြရီဆီ ရောက်
 ```
@@ -30,16 +30,16 @@ Claude Code ကို မဖွင့်ခင် ကျုပ် စာရွ�
 
 (Node.js v18 နောက်ပိုင်း install ထားပြီးသား ဖြစ်ဖို့ လိုတယ် — မရှိသေးရင် [nodejs.org](https://nodejs.org) ကနေ ရယူနိုင်ပါတယ်။)
 
-```bash
-mkdir myaree-store
-cd myaree-store
-git init
-claude
+```console
+$ mkdir myaree-store
+$ cd myaree-store
+$ git init
+$ claude
 ```
 
 Claude Code ပွင့်လာတော့ ပထမဆုံး Prompt —
 
-```
+```console
 > React + Vite + Tailwind CSS နဲ့ project အသစ် setup လုပ်ပေးပါ။ TypeScript မသုံးသေးဘူး၊
 > ရိုးရိုး JavaScript နဲ့ပဲ။ Setup ပြီးရင် dev server run လို့ရကြောင်း စစ်ပြပါ။
 ```
@@ -48,15 +48,15 @@ Claude Code ပွင့်လာတော့ ပထမဆုံး Prompt —
 
 Claude က `npm create vite@latest` တို့ ဘာတို့ Run မယ်၊ Tailwind ထည့်မယ်၊ တစ်ခုချင်း ခွင့်တောင်းလိမ့်မယ်။ ကျုပ်က Approve နှိပ်ရင်း သူဘာတွေလုပ်နေလဲ ဘေးကနေ ခိုးကြည့်တယ်။ ဒါက အလကားရတဲ့ ကျူရှင်။ Setup ပြီးတော့ —
 
-```
+```console
 ✓ Dev server started at http://localhost:5173
 ```
 
 Browser ထဲမှာ Vite ရဲ့ မျက်နှာစာ ပေါ်လာတယ်။ ဒီအချိန်မှာ ချက်ချင်းလုပ်ရမှာ —
 
-```bash
-git add .
-git commit -m "project setup"
+```console
+$ git add .
+$ git commit -m "project setup"
 ```
 
 **တစ်ဆင့်ပြီးတိုင်း Commit။** ဒါ ဘုရားစာလို ရွတ်ထားပါ။
@@ -65,7 +65,7 @@ git commit -m "project setup"
 
 ## အဆင့် (၃) — CLAUDE.md ဆောက်ခြင်း
 
-```
+```console
 > /init
 ```
 
@@ -87,7 +87,7 @@ Order data ကို localStorage ထဲ သိမ်းမယ်။
 
 ဒေါ်မြရီဆီက ပစ္စည်း ဆယ်မျိုးလောက် စာရင်းကောက်လာပြီး —
 
-```
+```console
 > src/data/products.json ဖိုင် ဆောက်ပေးပါ။ ပစ္စည်း ၁၀ ခု — တစ်ခုချင်းမှာ id, name (မြန်မာလို),
 > price (ကျပ်), image, category ပါရမယ်။ ဥပမာ ပစ္စည်းတွေက — ရွှေဖီချောကလက် ၅၀၀ ကျပ်၊
 > လက်ဖက်ရည်ဆား တစ်ထုပ် ၁,၂၀၀ ကျပ်၊ ဆပ်ပြာ ၈၀၀ ကျပ်... ။ ပုံတွေအတွက်တော့
@@ -104,7 +104,7 @@ Order data ကို localStorage ထဲ သိမ်းမယ်။
 
 ဒီနေရာမှာ Junior Developer အများစု လုပ်တတ်တဲ့ အမှားက — အလုပ်ဖြစ်တာ မြင်ရပြီဆိုတော့ ကုဒ်မဖတ်တော့ဘဲ ရှေ့ဆက်တာ။ ကျုပ်ကတော့ Claude ကိုပဲ ပြန်ခိုင်းတယ် —
 
-```
+```console
 > ProductList.jsx ထဲက ကုဒ်ကို လိုင်းချင်းလိုက် ရှင်းပြပါ။ map function က ဘာလုပ်လဲ၊
 > key prop က ဘာလို့ လိုလဲ ဆိုတာပါ ရှင်းပါ။
 ```
@@ -113,9 +113,9 @@ Order data ကို localStorage ထဲ သိမ်းမယ်။
 
 နားလည်ပြီဆိုမှ —
 
-```bash
-git add .
-git commit -m "product list ပြီး"
+```console
+$ git add .
+$ git commit -m "product list ပြီး"
 ```
 
 ## လက်တွေ့လုပ်ကြည့်ရန်
