@@ -21,6 +21,7 @@
     "08-context-window-and-tokens.md",
     "09-final-words.md"
   ],
+  "web_analytics": { "provider": "google", "id": "G-W6GH1PHVLY" },
   "page": { "size": "default" },
   "font": { "family": "noto-sans-myanmar", "size": "m" },
   "strings": {
