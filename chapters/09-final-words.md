@@ -111,7 +111,3 @@ PitWay ကိုယ်တိုင်က Agent မဟုတ်ပါဘူး၊
 | State | App ရဲ့ လက်ရှိ အခြေအနေ data (ဥပမာ — cart ထဲ ဘာတွေ ရှိလဲ) |
 | Regression Test | တစ်ခါ ကိုက်ဖူးတဲ့ Bug ပြန်မပေါ်အောင် ကာကွယ်ထားတဲ့ Test |
 | localStorage | Browser ထဲမှာ data သိမ်းတဲ့ နေရာ (ဝယ်သူ ဖုန်း/ကွန်ပျူတာထဲ) |
-
----
-
-[← အခန်း (၈)](08-context-window-and-tokens.md) · [🏠 မာတိကာ](../README.md)
