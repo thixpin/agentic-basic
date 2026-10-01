@@ -25,6 +25,12 @@
   "page": { "size": "default" },
   "font": { "family": "noto-sans-myanmar", "size": "m" },
   "strings": {
-    "licence_text": "This work is licensed under the MIT License. https://opensource.org/license/mit"
+    "licence_text": "This work is licensed under the MIT License. https://opensource.org/license/mit",
+    "consent": {
+      "message": "This site would like to use Google Analytics, which sets cookies, to count its readers.",
+      "agree": "Agree",
+      "decline": "Decline",
+      "settings": "Cookie settings"
+    }
   }
 }
